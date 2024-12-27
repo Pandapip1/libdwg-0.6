@@ -105,9 +105,9 @@
       FIELD_HANDLE(name[vcount], code);\
     }
 
-#define HANDLE_VECTOR(name, sizefield, code) HANDLE_VECTOR_N(name, FIELD_VALUE(sizefield), code)
+#define FIELD_XDATA(name, size) return(1); // Not implemented
 
-#define FIELD_XDATA(name, size) return;
+#define HANDLE_VECTOR(name, sizefield, code) HANDLE_VECTOR_N(name, FIELD_VALUE(sizefield), code)
 
 #define REACTORS(hcode)\
   for (vcount=0; vcount < obj->num_reactors; vcount++)\
