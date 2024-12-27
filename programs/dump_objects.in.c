@@ -26,6 +26,7 @@
   printf ("  " #name ": " FORMAT_##type "\n", FIELD_VALUE(name))
 
 #include "dwg_macro.h"
+#include "dump_entity_handle.h"
 
 #define SKIP(name) dump_retzero()
 

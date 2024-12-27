@@ -25,6 +25,7 @@
 #define FIELD_VALUE(name) _ent->name
 
 #include "dwg_macro.h"
+#include "dump_entity_handle.h"
 
 #define FIELD_HANDLE(name, handle_code) \
   printf ("  " #name ": HANDLE(%1X.%d.%lu)\n",\
