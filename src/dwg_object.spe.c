@@ -1466,7 +1466,7 @@ DWG_NONGRAPH(DICTIONARY);
           stderr,
           "Strange: dictionary with more than 10 thousand entries! Handle: %lu\n",
           obj->handle.value);
-      return;
+      return 1;
     }
 
   FIELD_TV_VECTOR(text, numitems);
