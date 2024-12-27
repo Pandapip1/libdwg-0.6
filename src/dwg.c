@@ -34,6 +34,7 @@
 #include "decode.h"
 #include "object.h"
 #include "logging.h"
+#include "variables.h"
 
 /** DWG version codes */
 char version_codes[9][7] = {

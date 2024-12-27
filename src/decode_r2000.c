@@ -32,6 +32,7 @@
 #include "decode_r2000.h"
 #include "variables.h"
 #include "logging.h"
+#include "object.h"
 
 extern Dwg_Header_Section header;
 
