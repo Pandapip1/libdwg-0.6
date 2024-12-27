@@ -24,6 +24,7 @@
 #include <stdint.h>
 #include <string.h>
 #include <math.h>
+#include <ctype.h>
 #include "config.h"
 
 #include "dwg.h"
