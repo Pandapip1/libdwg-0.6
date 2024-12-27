@@ -78,7 +78,7 @@
 
 #define HANDLE_VECTOR(name, sizefield, code) FIELD_TV(name)
 
-#define FIELD_XDATA(name, size) return;
+#define FIELD_XDATA(name, size) FIELD_TV(name)
 
 #define REACTORS(code) \
   if (obj->reactors)\
